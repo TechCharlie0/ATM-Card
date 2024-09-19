@@ -48,7 +48,7 @@ body {
     color: white;
     transform: rotateY(180deg);
     background: linear-gradient(135deg, #fdb99b, #cf8bf3);
-    /* Back color */
+
 }
 
 .logo img {
@@ -113,22 +113,6 @@ body {
 .back-logo img {
     width: 50px;
     margin-top: 10px;
-}
-
-/* Media Query */
-@media (max-width: 768px) {
-    .atm-card {
-        width: 300px;
-        height: 170px;
-    }
-
-    .number {
-        font-size: 1.1rem;
-    }
-
-    .name {
-        font-size: 0.9rem;
-    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
